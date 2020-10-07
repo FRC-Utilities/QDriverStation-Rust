@@ -10,10 +10,10 @@ The actual code that operates a FRC robot is found in a separate repository ([ds
 
 For the moment, this project is under heavy development. The user interface will be built from the ground-up to use newer Qt/QML technologies. Integration with [ds-rs](https://github.com/first-rust-competition/ds-rs) is underway.
 
-## Note
+### Note
 
 This version of the QDriverStation only works with 2020 robots. If you need to drive an older robot, check the [legacy](https://github.com/FRC-Utilites/QDriverStation-Legacy) version.
 
-## License
+### License
 
 This project is released under the MIT License. For more information, [click here](LICENSE.md).
