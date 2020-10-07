@@ -87,7 +87,7 @@ macos {
    
    # Target for pretty DMG generation
    dmg.commands += echo "Generate DMG";
-   dmg.commands += macdeployqt $$BUNDLE_FILENAME &&
+   dmg.commands += macdeployqt $$BUNDLE_FILENAME -qmldir=$$PWD/assets/qml &&
    dmg.commands += create-dmg \
          --volname $${TARGET} \
          --background $${PWD}/deploy/macOS/dmg_bg.png \
