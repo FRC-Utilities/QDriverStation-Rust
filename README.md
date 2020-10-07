@@ -8,19 +8,17 @@ The QDriverStation is a cross-platform and open-source alternative to the FRC Dr
 
 The actual code that operates a FRC robot is found in a separate repository ([ds-rs](https://github.com/first-rust-competition/ds-rs)) and is written in Rust by [Kaitlyn Kenwell](https://github.com/Redrield).
 
-### :heavy_exclamation_mark: Warning
-
-This version of the QDriverStation only works with 2020 robots. If you need to drive an older robot, check the [legacy](https://github.com/FRC-Utilites/QDriverStation-Legacy) version. For the moment, this project is under heavy development. The user interface will be built from the ground-up to use newer Qt/QML technologies. Integration with [ds-rs](https://github.com/first-rust-competition/ds-rs) is underway.
+:warning: This version of the QDriverStation only works with 2020 robots. If you need to drive an older robot, check the [legacy](https://github.com/FRC-Utilites/QDriverStation-Legacy) version. For the moment, this project is under heavy development. The user interface will be built from the ground-up to use newer Qt/QML technologies. Integration with [ds-rs](https://github.com/first-rust-competition/ds-rs) is underway.
 
 ### :octocat: Cloning this repository
 
 This repository makes use of [`git submodule`](https://git-scm.com/docs/git-submodule). In order to clone it, you have two options:
 
-:one: One-liner
+One-liner:
 
     git clone --recursive https://github.com/FRC-Utilities/QDriverStation/
 
-:two: Normal procedure
+Normal procedure:
 
     git clone https://github.com/FRC-Utilities/QDriverStation/
     cd QDriverStation
