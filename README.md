@@ -10,7 +10,7 @@ The actual code that operates a FRC robot is found in a separate repository ([ds
 
 :warning: This version of the QDriverStation only works with 2020 robots. If you need to drive an older robot, check the [legacy](https://github.com/FRC-Utilites/QDriverStation-Legacy) version. For the moment, this project is under heavy development. The user interface will be built from the ground-up to use newer Qt/QML technologies. Integration with [ds-rs](https://github.com/first-rust-competition/ds-rs) is underway.
 
-### :octocat: Cloning this repository
+### Cloning this repository
 
 This repository makes use of [`git submodule`](https://git-scm.com/docs/git-submodule). In order to clone it, you have two options:
 
@@ -25,10 +25,10 @@ Normal procedure:
     git submodule init
     git submodule update
     
-### :wrench: Building the project
+### Building the project
 
 Just let me figure out a `qmake` script to generate the *ds-rs* library for each build at I'll write a small guide.
     
-### :scroll: License
+### License
 
 This project is released under the MIT License. For more information, [click here](LICENSE.md).
