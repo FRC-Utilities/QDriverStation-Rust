@@ -2,13 +2,11 @@
     <img src="artwork/icon.png" align="right" />
 </a>
 
-# QDriverStation
+# QDriverStation-Rust
 
-The QDriverStation is a cross-platform and open-source alternative to the FRC Driver Station. It allows you to operate FRC robots with the major operating systems (Windows, macOS and GNU/Linux). 
+This project aims to integrate the UI of the [QDriverStation](https://github.com/FRC-Utilities/QDriverStation) with [ds-rs]https://github.com/first-rust-competition/ds-rs, a library written by [Kaitlyn Kenwell](https://github.com/Redrield).
 
-The actual code that operates a FRC robot is found in a separate repository ([ds-rs](https://github.com/first-rust-competition/ds-rs)) and is written in Rust by [Kaitlyn Kenwell](https://github.com/Redrield).
-
-:warning: This version of the QDriverStation only works with 2020 robots. If you need to drive an older robot, check the [legacy](https://github.com/FRC-Utilities/QDriverStation-Legacy) version. For the moment, this project is under heavy development. The user interface will be built from the ground-up to use newer Qt/QML technologies. Integration with [ds-rs](https://github.com/first-rust-competition/ds-rs) is underway.
+:warning: For the moment, this project is under heavy development. The user interface will be built from the ground-up to use newer Qt/QML technologies. Integration with [ds-rs](https://github.com/first-rust-competition/ds-rs) is underway. If you need to drive a robot, check the [original QDriverStation](https://github.com/FRC-Utilities/QDriverStation). 
 
 ### Cloning this repository
 
@@ -27,7 +25,7 @@ Normal procedure:
     
 ### Building the project
 
-Just let me figure out a `qmake` script to generate the *ds-rs* library for each build at I'll write a small guide.
+(TODO)
     
 ### License
 
