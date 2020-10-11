@@ -4,7 +4,7 @@
 
 # QDriverStation-Rust
 
-This project aims to integrate the UI of the [QDriverStation](https://github.com/FRC-Utilities/QDriverStation) with [ds-rs]https://github.com/first-rust-competition/ds-rs, a library written by [Kaitlyn Kenwell](https://github.com/Redrield).
+This project aims to integrate the UI of the [QDriverStation](https://github.com/FRC-Utilities/QDriverStation) with [ds-rs](https://github.com/first-rust-competition/ds-rs), a library written by [Kaitlyn Kenwell](https://github.com/Redrield).
 
 :warning: For the moment, this project is under heavy development. The user interface will be built from the ground-up to use newer Qt/QML technologies. Integration with [ds-rs](https://github.com/first-rust-competition/ds-rs) is underway. If you need to drive a robot, check the [original QDriverStation](https://github.com/FRC-Utilities/QDriverStation). 
 
